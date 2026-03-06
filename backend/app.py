@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from config import Config
+from backend.config import Config
 from models import db
 from routes.api import api_bp
 import os
